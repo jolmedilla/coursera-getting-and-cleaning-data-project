@@ -4,6 +4,7 @@
 mind that there should be two folders in it, `test` and `data`, containing each
 of the data sets with same names.
 2.You can execute the script two ways:
+
 ··1.From that same directory invoke `Rscript`with the file as parameter:
 
   ```shell
