@@ -18,7 +18,7 @@ The result will be generated in a file called `result.txt` in CSV format with 68
 
 ### Code Book
 
-Each observation has 68 columns, the first two ara the activity label and the subject id for which we are doing the average of the other 17 variables. Those features that are 3-axial signals are subvdivied in the three components XYZ.
+Each row contains a set of averages on 66 variables per each combination of activity and subject, amounting thus to a total of 68 columns per row. All data is a result of processing the Samsung original data as indicated in the previews section. The columns and their units are the following (in same names and order they appear in the file):
 
 1. activity: 
 
@@ -283,28 +283,157 @@ Each observation has 68 columns, the first two ara the activity label and the su
           Real: -1..1
             
 43. fBodyAcc.mean...X
+
+      Average of (normalized) means of Fast Fourier Transfrom on body acceleration, X component
+         
+          Real: -1..1
+          
 44. fBodyAcc.mean...Y
+
+      Average of (normalized) means of Fast Fourier Transfrom on body acceleration, Y component
+         
+          Real: -1..1
+          
 45. fBodyAcc.mean...Z
+
+      Average of (normalized) means of Fast Fourier Transfrom on body acceleration, Z component
+         
+          Real: -1..1
+          
 46. fBodyAcc.std...X
+
+      Average of (normalized) standard deviations of Fast Fourier Transfrom on body acceleration, X component
+         
+          Real: -1..1
+          
 47. fBodyAcc.std...Y
+
+      Average of (normalized) standard deviations of Fast Fourier Transfrom on body acceleration, Y component
+         
+          Real: -1..1
+          
 48. fBodyAcc.std...Z
+
+      Average of (normalized) standard deviations of Fast Fourier Transfrom on body acceleration, Z component
+         
+          Real: -1..1
+          
 49. fBodyAccJerk.mean...X
+
+      Average of (normalized) means of Fast Fourier Transfrom on body acceleration Jerk, X component
+         
+          Real: -1..1
+          
 50. fBodyAccJerk.mean...Y
+
+      Average of (normalized) means of Fast Fourier Transfrom on body acceleration Jerk, Y component
+         
+          Real: -1..1
+          
 51. fBodyAccJerk.mean...Z
+
+      Average of (normalized) means of Fast Fourier Transfrom on body acceleration Jerk, Z component
+         
+          Real: -1..1
+          
 52. fBodyAccJerk.std...X
+
+      Average of (normalized) standard deviations of Fast Fourier Transfrom on body acceleration Jerk, X component
+         
+          Real: -1..1
+          
 53. fBodyAccJerk.std...Y
+
+      Average of (normalized) standard deviations of Fast Fourier Transfrom on body acceleration Jerk, Y component
+         
+          Real: -1..1
+          
 54. fBodyAccJerk.std...Z
+
+      Average of (normalized) standard deviations of Fast Fourier Transfrom on body acceleration Jerk, Z component
+         
+          Real: -1..1
+          
 55. fBodyGyro.mean...X
+
+      Average of (normalized) means of Fast Fourier Transfrom on angular velocity, X component
+         
+          Real: -1..1
+          
 56. fBodyGyro.mean...Y
+
+      Average of (normalized) means of Fast Fourier Transfrom on angular velocity, Y component
+         
+          Real: -1..1
+          
 57. fBodyGyro.mean...Z
+
+      Average of (normalized) means of Fast Fourier Transfrom on angular velocity, Z component
+         
+          Real: -1..1
+          
 58. fBodyGyro.std...X
+
+      Average of (normalized) standard deviations of Fast Fourier Transfrom on angular velocity, X component
+         
+          Real: -1..1
+          
 59. fBodyGyro.std...Y
+
+      Average of (normalized) standard deviations of Fast Fourier Transfrom on angular velocity, Y component
+         
+          Real: -1..1
+          
 60. fBodyGyro.std...Z
+
+      Average of (normalized) standard deviations of Fast Fourier Transfrom on angular velocity, Z component
+         
+          Real: -1..1
+          
 61. fBodyAccMag.mean..
+
+      Average of (normalized) means of Fast Fourier Transfrom on body acceleration magnitudes
+         
+          Real: -1..1
+          
 62. fBodyAccMag.std..
+
+      Average of (normalized) standard deviations of Fast Fourier Transfrom on body acceleration magnitudes
+         
+          Real: -1..1
+          
 63. fBodyBodyAccJerkMag.mean..
+
+      Average of (normalized) means of Fast Fourier Transfrom on body acceleration Jerk magnitudes
+         
+          Real: -1..1
+          
 64. fBodyBodyAccJerkMag.std..
+
+      Average of (normalized) standard deviations of Fast Fourier Transfrom on body acceleration Jerk magnitudes
+         
+          Real: -1..1
+          
 65. fBodyBodyGyroMag.mean..
+
+      Average of (normalized) means of Fast Fourier Transfrom on angular velocity magnitudes
+         
+          Real: -1..1
+          
 66. fBodyBodyGyroMag.std..
+
+      Average of (normalized) standard deviations of Fast Fourier Transfrom on angular velocity magnitudes
+         
+          Real: -1..1
+          
 67. fBodyBodyGyroJerkMag.mean..
+
+      Average of (normalized) means of Fast Fourier Transfrom on angular velocity Jerk magnitudes
+         
+          Real: -1..1
+          
 68. fBodyBodyGyroJerkMag.std..
+
+      Average of (normalized) standard deviations of Fast Fourier Transfrom on angular velocity Jerk magnitudes
+         
+          Real: -1..1
